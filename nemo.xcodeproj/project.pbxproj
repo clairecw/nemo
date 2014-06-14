@@ -22,6 +22,7 @@
 		1301E3B4194C24AF0041290E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1301E393194C24AF0041290E /* UIKit.framework */; };
 		1301E3BC194C24AF0041290E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1301E3BA194C24AF0041290E /* InfoPlist.strings */; };
 		1301E3BE194C24AF0041290E /* nemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1301E3BD194C24AF0041290E /* nemoTests.m */; };
+		843BA386194CCD0C005BA6D0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843BA384194CCD0C005BA6D0 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1301E3B9194C24AF0041290E /* nemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nemoTests-Info.plist"; sourceTree = "<group>"; };
 		1301E3BB194C24AF0041290E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1301E3BD194C24AF0041290E /* nemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nemoTests.m; sourceTree = "<group>"; };
+		843BA385194CCD0C005BA6D0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				1301E39E194C24AF0041290E /* FSHAppDelegate.h */,
 				1301E39F194C24AF0041290E /* FSHAppDelegate.m */,
 				1301E3A1194C24AF0041290E /* Main_iPhone.storyboard */,
+				843BA384194CCD0C005BA6D0 /* Model.xcdatamodeld */,
 				1301E3A4194C24AF0041290E /* Main_iPad.storyboard */,
 				1301E3A7194C24AF0041290E /* FSHViewController.h */,
 				1301E3A8194C24AF0041290E /* FSHViewController.m */,
@@ -257,6 +260,7 @@
 				1301E3A0194C24AF0041290E /* FSHAppDelegate.m in Sources */,
 				1301E3A9194C24AF0041290E /* FSHViewController.m in Sources */,
 				1301E39C194C24AF0041290E /* main.m in Sources */,
+				843BA386194CCD0C005BA6D0 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +475,7 @@
 				1301E3C3194C24AF0041290E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1301E3C4194C24AF0041290E /* Build configuration list for PBXNativeTarget "nemoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,8 +484,22 @@
 				1301E3C6194C24AF0041290E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		843BA384194CCD0C005BA6D0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				843BA385194CCD0C005BA6D0 /* Model.xcdatamodel */,
+			);
+			currentVersion = 843BA385194CCD0C005BA6D0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1301E384194C24AF0041290E /* Project object */;
 }
