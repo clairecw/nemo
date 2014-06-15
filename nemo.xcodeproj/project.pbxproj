@@ -23,7 +23,9 @@
 		1301E3BC194C24AF0041290E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1301E3BA194C24AF0041290E /* InfoPlist.strings */; };
 		1301E3BE194C24AF0041290E /* nemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1301E3BD194C24AF0041290E /* nemoTests.m */; };
 		843BA386194CCD0C005BA6D0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843BA384194CCD0C005BA6D0 /* Model.xcdatamodeld */; };
-		843BA388194CE0ED005BA6D0 /* OCEAN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843BA387194CE0ED005BA6D0 /* OCEAN.jpg */; };
+		843BA38B194D20C6005BA6D0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA38A194D20C6005BA6D0 /* SecondViewController.m */; };
+		843BA38D194D22DF005BA6D0 /* OCEAN.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 843BA38C194D22DF005BA6D0 /* OCEAN.jpeg */; };
+		843BA391194D23B2005BA6D0 /* net.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 843BA390194D23B2005BA6D0 /* net.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,10 @@
 		1301E3BB194C24AF0041290E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1301E3BD194C24AF0041290E /* nemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nemoTests.m; sourceTree = "<group>"; };
 		843BA385194CCD0C005BA6D0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		843BA387194CE0ED005BA6D0 /* OCEAN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OCEAN.jpg; sourceTree = "<group>"; };
+		843BA389194D20C6005BA6D0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		843BA38A194D20C6005BA6D0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		843BA38C194D22DF005BA6D0 /* OCEAN.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OCEAN.jpeg; sourceTree = "<group>"; };
+		843BA390194D23B2005BA6D0 /* net.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = net.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +123,13 @@
 		1301E395194C24AF0041290E /* nemo */ = {
 			isa = PBXGroup;
 			children = (
-				843BA387194CE0ED005BA6D0 /* OCEAN.jpg */,
+				843BA38C194D22DF005BA6D0 /* OCEAN.jpeg */,
+				843BA390194D23B2005BA6D0 /* net.jpeg */,
 				1301E39E194C24AF0041290E /* FSHAppDelegate.h */,
 				1301E39F194C24AF0041290E /* FSHAppDelegate.m */,
 				1301E3A1194C24AF0041290E /* Main_iPhone.storyboard */,
+				843BA389194D20C6005BA6D0 /* SecondViewController.h */,
+				843BA38A194D20C6005BA6D0 /* SecondViewController.m */,
 				843BA384194CCD0C005BA6D0 /* Model.xcdatamodeld */,
 				1301E3A4194C24AF0041290E /* Main_iPad.storyboard */,
 				1301E3A7194C24AF0041290E /* FSHViewController.h */,
@@ -240,9 +248,10 @@
 			files = (
 				1301E3A6194C24AF0041290E /* Main_iPad.storyboard in Resources */,
 				1301E3AB194C24AF0041290E /* Images.xcassets in Resources */,
+				843BA38D194D22DF005BA6D0 /* OCEAN.jpeg in Resources */,
 				1301E3A3194C24AF0041290E /* Main_iPhone.storyboard in Resources */,
 				1301E39A194C24AF0041290E /* InfoPlist.strings in Resources */,
-				843BA388194CE0ED005BA6D0 /* OCEAN.jpg in Resources */,
+				843BA391194D23B2005BA6D0 /* net.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843BA38B194D20C6005BA6D0 /* SecondViewController.m in Sources */,
 				1301E3A0194C24AF0041290E /* FSHAppDelegate.m in Sources */,
 				1301E3A9194C24AF0041290E /* FSHViewController.m in Sources */,
 				1301E39C194C24AF0041290E /* main.m in Sources */,
